@@ -1,6 +1,5 @@
 package com.salehin.learning.junit;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /* Simple usage*/
 @SpringBootTest
-class JunitApplicationTests {
+class AccountDetailsTests {
 	AccountDetails 	accountDetails = new AccountDetails(
 				"Salehin",
 				01123456,

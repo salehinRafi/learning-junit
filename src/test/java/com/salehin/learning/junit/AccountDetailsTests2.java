@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * 		- annotated method MUST be a static method otherwise it will throw runtime error.
  * */
 @SpringBootTest
-class JunitApplicationTests2 {
+class AccountDetailsTests2 {
 	AccountDetails accountDetails;
 
 	@BeforeEach

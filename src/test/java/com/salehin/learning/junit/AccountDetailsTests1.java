@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 * 		vice versa of @BeforeEach
 * */
 @SpringBootTest
-class JunitApplicationTests1 {
+class AccountDetailsTests1 {
 	AccountDetails accountDetails;
 
 	@BeforeAll
